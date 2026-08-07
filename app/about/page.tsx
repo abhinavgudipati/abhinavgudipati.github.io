@@ -5,18 +5,9 @@ export const metadata = {
 export default function AboutPage() {
   return (
     <div className="max-w-2xl mx-auto px-6 py-16">
-      <div className="mb-10 flex items-end gap-8">
-        <div>
-          <p className="text-xs text-gray-400 uppercase tracking-widest mb-3">Who I am</p>
-          <h1 className="text-2xl font-medium text-gray-900 mb-0">About</h1>
-        </div>
-        <div className="w-24 h-24 rounded-full overflow-hidden shrink-0 mb-1 border border-gray-100">
-          <img
-            src="/IMG_7563_Original.jpg"
-            alt="Abhinav Gudipati"
-            style={{ width: "100%", height: "100%", objectFit: "cover", objectPosition: "center 18%" }}
-          />
-        </div>
+      <div className="mb-10">
+        <p className="text-xs text-gray-400 uppercase tracking-widest mb-3">Who I am</p>
+        <h1 className="text-2xl font-medium text-gray-900 mb-6">About</h1>
       </div>
 
       <div className="flex flex-col gap-5 text-sm text-gray-500 leading-relaxed mb-12">
