@@ -44,10 +44,19 @@ export default function Home() {
 
       {/* Hero */}
       <section className="mb-16">
-        <p className="text-xs text-gray-400 uppercase tracking-widest mb-3">ISB · NatWest · IIIT Delhi</p>
-        <h1 className="text-3xl font-medium text-gray-900 leading-snug mb-5">
-          Abhinav Gudipati
-        </h1>
+        <div className="flex items-center gap-5 mb-5">
+          <div className="w-16 h-16 rounded-full overflow-hidden shrink-0 border border-gray-100">
+            <img
+              src="/photo2.jpg.jpg"
+              alt="Abhinav Gudipati"
+              style={{ width: "100%", height: "100%", objectFit: "cover", objectPosition: "55% 12%", transform: "scale(1.6)", transformOrigin: "55% 12%" }}
+            />
+          </div>
+          <div>
+            <p className="text-xs text-gray-400 uppercase tracking-widest mb-1">ISB · NatWest · IIIT Delhi</p>
+            <h1 className="text-3xl font-medium text-gray-900 leading-snug">Abhinav Gudipati</h1>
+          </div>
+        </div>
         <p className="text-base text-gray-500 leading-relaxed max-w-xl mb-8">
           I research market microstructure at ISB and previously built data systems at NatWest. The work has always been somewhere between finance and engineering, figuring out what large, messy datasets actually say. I also built <a href="https://concalls.in" target="_blank" rel="noopener noreferrer" className="text-[#5338f5] hover:underline">concalls.in</a>, an earnings call tool for Indian investors.
         </p>
