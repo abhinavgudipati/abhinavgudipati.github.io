@@ -43,31 +43,31 @@ export default function Home() {
     <div className="max-w-3xl mx-auto px-6 py-16">
 
       {/* Hero */}
-      <section className="mb-16">
-        <div className="mb-6">
-          <div className="w-56 h-56 rounded-full overflow-hidden border-2 border-gray-100">
-            <img
-              src="/photo2.jpg.jpg"
-              alt="Abhinav Gudipati"
-              style={{ width: "100%", height: "100%", objectFit: "cover", objectPosition: "50% 38%", transform: "scale(2.2)", transformOrigin: "50% 38%" }}
-            />
-          </div>
+      <section className="mb-16 flex gap-10 items-start">
+        <div className="shrink-0 w-56 h-56 rounded-full overflow-hidden border-2 border-gray-100">
+          <img
+            src="/photo2.jpg.jpg"
+            alt="Abhinav Gudipati"
+            style={{ width: "100%", height: "100%", objectFit: "cover", objectPosition: "35% 38%", transform: "scale(2.2)", transformOrigin: "35% 38%" }}
+          />
         </div>
-        <p className="text-xs text-gray-400 uppercase tracking-widest mb-3">ISB · NatWest · IIIT Delhi</p>
-        <h1 className="text-3xl font-medium text-gray-900 leading-snug mb-5">Abhinav Gudipati</h1>
-        <p className="text-base text-gray-500 leading-relaxed max-w-xl mb-8">
-          I research market microstructure at ISB and previously built data systems at NatWest. The work has always been somewhere between finance and engineering, figuring out what large, messy datasets actually say. I also built <a href="https://concalls.in" target="_blank" rel="noopener noreferrer" className="text-[#5338f5] hover:underline">concalls.in</a>, an earnings call tool for Indian investors.
-        </p>
-        <div className="flex gap-3 flex-wrap">
-          <Link href="/blog" className="text-sm px-5 py-2 bg-[#5338f5] text-white rounded-full hover:bg-indigo-600 transition-colors">
-            Read the blog
-          </Link>
-          <Link href="/research" className="text-sm px-5 py-2 border border-gray-200 rounded-full text-gray-700 hover:border-gray-400 transition-colors">
-            My research →
-          </Link>
-          <a href="mailto:gabhinavsiddharth@gmail.com" className="text-sm px-5 py-2 border border-gray-200 rounded-full text-gray-700 hover:border-gray-400 transition-colors">
-            Say hi
-          </a>
+        <div className="overflow-y-auto">
+          <p className="text-xs text-gray-400 uppercase tracking-widest mb-3">ISB · NatWest · IIIT Delhi</p>
+          <h1 className="text-3xl font-medium text-gray-900 leading-snug mb-5">Abhinav Gudipati</h1>
+          <p className="text-base text-gray-500 leading-relaxed mb-8">
+            I research market microstructure at ISB and previously built data systems at NatWest. The work has always been somewhere between finance and engineering, figuring out what large, messy datasets actually say. I also built <a href="https://concalls.in" target="_blank" rel="noopener noreferrer" className="text-[#5338f5] hover:underline">concalls.in</a>, an earnings call tool for Indian investors.
+          </p>
+          <div className="flex gap-3 flex-wrap">
+            <Link href="/blog" className="text-sm px-5 py-2 bg-[#5338f5] text-white rounded-full hover:bg-indigo-600 transition-colors">
+              Read the blog
+            </Link>
+            <Link href="/research" className="text-sm px-5 py-2 border border-gray-200 rounded-full text-gray-700 hover:border-gray-400 transition-colors">
+              My research →
+            </Link>
+            <a href="mailto:gabhinavsiddharth@gmail.com" className="text-sm px-5 py-2 border border-gray-200 rounded-full text-gray-700 hover:border-gray-400 transition-colors">
+              Say hi
+            </a>
+          </div>
         </div>
       </section>
 
