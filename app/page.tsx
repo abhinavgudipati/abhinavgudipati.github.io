@@ -48,7 +48,7 @@ export default function Home() {
           <img
             src="/photo2.jpg.jpg"
             alt="Abhinav Gudipati"
-            style={{ width: "100%", height: "100%", objectFit: "cover", objectPosition: "50% 48%", transform: "scale(1.65)", transformOrigin: "50% 48%" }}
+            style={{ width: "100%", height: "100%", objectFit: "cover", objectPosition: "62% 22%", transform: "scale(3.2)", transformOrigin: "62% 22%" }}
           />
         </div>
         <div className="overflow-y-auto">
