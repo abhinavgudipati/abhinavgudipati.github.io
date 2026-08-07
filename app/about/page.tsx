@@ -12,7 +12,7 @@ export default function AboutPage() {
         </div>
         <div className="w-24 h-24 rounded-full overflow-hidden shrink-0 mb-1 border border-gray-100">
           <img
-            src="/photo.jpg"
+            src="/IMG_7563_Original.jpg"
             alt="Abhinav Gudipati"
             style={{ width: "100%", height: "100%", objectFit: "cover", objectPosition: "center 18%" }}
           />
