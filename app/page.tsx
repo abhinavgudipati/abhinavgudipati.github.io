@@ -44,11 +44,11 @@ export default function Home() {
 
       {/* Hero */}
       <section className="mb-16 flex gap-10 items-start">
-        <div className="shrink-0 w-56 h-56 rounded-full overflow-hidden border-2 border-gray-100">
+        <div className="shrink-0 w-64 h-64 rounded-full overflow-hidden border-2 border-gray-100">
           <img
             src="/photo2.jpg.jpg"
             alt="Abhinav Gudipati"
-            style={{ width: "100%", height: "100%", objectFit: "cover", objectPosition: "55% 38%", transform: "scale(2.2)", transformOrigin: "55% 38%" }}
+            style={{ width: "100%", height: "100%", objectFit: "cover", objectPosition: "50% 42%", transform: "scale(1.4)", transformOrigin: "50% 42%" }}
           />
         </div>
         <div className="overflow-y-auto">
