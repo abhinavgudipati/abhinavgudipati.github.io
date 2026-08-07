@@ -5,7 +5,7 @@ import Footer from "@/components/Footer";
 
 export const metadata: Metadata = {
   title: "Abhinav Gudipati",
-  description: "Research Associate at ISB. Empirical finance, market microstructure, and capital markets accounting. Former software engineer at NatWest.",
+  description: "Quantitative finance researcher and engineer. Market microstructure, high-frequency data, and algorithmic trading. Research Associate at ISB, ex-NatWest.",
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {

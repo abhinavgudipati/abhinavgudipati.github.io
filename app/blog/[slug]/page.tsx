@@ -10,7 +10,7 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
   const { slug } = await params;
   try {
     const post = getPost(slug);
-    return { title: `${post.title} — Abhinav Gudipati`, description: post.excerpt };
+    return { title: `${post.title} | Abhinav Gudipati`, description: post.excerpt };
   } catch {
     return { title: "Post not found" };
   }

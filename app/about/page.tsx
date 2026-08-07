@@ -1,5 +1,5 @@
 export const metadata = {
-  title: "About — Abhinav Gudipati",
+  title: "About | Abhinav Gudipati",
 };
 
 export default function AboutPage() {
@@ -12,22 +12,19 @@ export default function AboutPage() {
 
       <div className="flex flex-col gap-5 text-sm text-gray-500 leading-relaxed mb-12">
         <p>
-          I'm Abhinav Gudipati — a Pre-Doctoral Research Associate at the <span className="text-gray-700">Indian School of Business</span>, working under Prof. Ramabhadran Thirumalai. My research sits at the intersection of market microstructure, algorithmic trading, and capital markets accounting. I work primarily with high-frequency tick data from NSE and BSE.
+          I'm a Research Associate at <span className="text-gray-700">ISB</span> working with Prof. Ramabhadran Thirumalai on market microstructure, mostly intraday momentum and front-running detection using NSE and BSE tick data. Before this I was an engineer at <span className="text-gray-700">NatWest</span>, building data pipelines and ML tooling for the C&I division.
         </p>
         <p>
-          Before ISB, I was a Software Engineer in the C&amp;I Data Engineering &amp; AI Solutions division at <span className="text-gray-700">NatWest Group</span> (Jul 2023 – Sep 2025), where I built PySpark pipelines, Airflow orchestration for 200+ teams, and a GPT-4-based tool for automated PDF metric extraction at 95% accuracy.
+          The career has been a bit zigzaggy but the through-line is working with large, messy financial datasets and trying to make them say something true. At NatWest that meant PySpark and Airflow at scale. At ISB it means being much more careful about what the data can and can't tell you.
         </p>
         <p>
-          Earlier, I interned at the <span className="text-gray-700">ISB Centre for Analytical Finance</span> (Mar–Sep 2022) under Prof. Prasanna Tantri, where I built an NLP-based scoring model for CRIF and a case study on the Bank of Maharashtra.
+          On the side I've built a couple of things: <a href="https://concalls.in" target="_blank" rel="noopener noreferrer" className="text-[#5338f5] hover:underline">concalls.in</a>, an earnings call analysis tool for Indian equity investors, and <a href="https://financerankings.netlify.app/" target="_blank" rel="noopener noreferrer" className="text-[#5338f5] hover:underline">Finance Research Rankings</a>, which a surprising number of pre-doc fellows apparently use.
         </p>
         <p>
-          I studied at <span className="text-gray-700">IIIT Delhi</span>, where I completed a B.Tech with a dual major in Computer Science and Applied Mathematics (2019–2023).
+          I studied CS and Applied Mathematics at <span className="text-gray-700">IIIT Delhi</span>. My first taste of finance research was a 2022 internship at ISB's Centre for Analytical Finance. Liked it enough to come back.
         </p>
         <p>
-          Alongside my research, I founded <a href="https://concalls.in" target="_blank" rel="noopener noreferrer" className="text-[#5338f5] hover:underline">concalls.in</a> — a SaaS product delivering AI-driven earnings call intelligence for Indian equity investors — and built <a href="https://financerankings.netlify.app/" target="_blank" rel="noopener noreferrer" className="text-[#5338f5] hover:underline">Finance Research Rankings</a>, a tool used by pre-doctoral fellows and RAs across India to identify PhD advisors.
-        </p>
-        <p>
-          My goal is a <span className="text-gray-700">PhD in Financial Economics</span>. I want to build explainable, efficient models that bridge rigorous empirical analysis with real-world decision-making in capital markets.
+          I'm wrapping up at ISB and looking for what's next. Quant research or trading would be the obvious fit, but I'm open to anything where the problems are hard and the data is taken seriously. <a href="mailto:gabhinavsiddharth@gmail.com" className="text-[#5338f5] hover:underline">Drop me a line</a> if that sounds like your team.
         </p>
       </div>
 
@@ -42,7 +39,7 @@ export default function AboutPage() {
             <p className="text-xs text-gray-400">Indian School of Business · 2025 – present</p>
           </div>
           <div>
-            <p className="text-sm font-medium text-gray-900">B.Tech — Computer Science & Applied Mathematics</p>
+            <p className="text-sm font-medium text-gray-900">B.Tech, Computer Science & Applied Mathematics</p>
             <p className="text-xs text-gray-400">IIIT Delhi · 2019 – 2023</p>
           </div>
         </div>
@@ -123,6 +120,7 @@ export default function AboutPage() {
           ))}
         </div>
       </div>
+
     </div>
   );
 }

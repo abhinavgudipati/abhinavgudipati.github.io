@@ -1,7 +1,7 @@
 import Link from "next/link";
 
 export const metadata = {
-  title: "Research — Abhinav Gudipati",
+  title: "Research | Abhinav Gudipati",
   description: "Research on market microstructure, algorithmic trading, and capital markets accounting.",
 };
 
@@ -39,7 +39,7 @@ const research = [
     year: "2022",
     org: "ISB Centre for Analytical Finance · Prof. Prasanna Tantri",
     abstract:
-      "Designed a scoring model for CRIF to evaluate and rank 50+ lending firms (listed and unlisted) using NLP techniques — stemming, lemmatisation, tokenisation — applied to financial disclosures.",
+      "Designed a scoring model for CRIF to evaluate and rank 50+ lending firms (listed and unlisted) using NLP techniques (stemming, lemmatisation, tokenisation) applied to financial disclosures.",
     tags: ["NLP", "Credit scoring", "Financial disclosures"],
   },
 ];
@@ -71,7 +71,7 @@ export default function ResearchPage() {
         <p className="text-xs text-gray-400 uppercase tracking-widest mb-3">Academic work</p>
         <h1 className="text-2xl font-medium text-gray-900 mb-3">Research</h1>
         <p className="text-sm text-gray-500 leading-relaxed max-w-lg">
-          My research focuses on market microstructure, algorithmic trading, and capital markets accounting. I work with high-frequency tick data from NSE and BSE, and aim to build explainable models that bridge empirical analysis and real-world market practice.
+          My research focuses on market microstructure, algorithmic trading, and capital markets accounting, using high-frequency tick data from NSE and BSE. I combine strong empirical methods with engineering-grade data pipelines, the same skills I'm bringing to finance and quant finance roles.
         </p>
       </div>
 

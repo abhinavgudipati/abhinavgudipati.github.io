@@ -2,7 +2,7 @@ import Link from "next/link";
 import { getAllPosts } from "@/lib/posts";
 
 export const metadata = {
-  title: "Blog — Abhinav Gudipati",
+  title: "Blog | Abhinav Gudipati",
   description: "Writing on empirical finance, market microstructure, data engineering, and the PhD journey.",
 };
 
@@ -47,7 +47,7 @@ export default function BlogPage() {
           </Link>
         ))}
         {posts.length === 0 && (
-          <p className="text-sm text-gray-400">No posts yet — coming soon.</p>
+          <p className="text-sm text-gray-400">No posts yet. Coming soon.</p>
         )}
       </div>
     </div>

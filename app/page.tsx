@@ -3,7 +3,7 @@ import { getAllPosts } from "@/lib/posts";
 
 const timeline = [
   {
-    period: "Sep 2025 — present",
+    period: "Sep 2025 to present",
     role: "Pre-Doctoral Research Associate",
     org: "Indian School of Business",
     detail: "Market microstructure, algorithmic trading, and capital markets accounting under Prof. Ramabhadran Thirumalai. Doctoral coursework in Empirical Asset Pricing and Empirical Methods in Accounting & Finance.",
@@ -11,15 +11,15 @@ const timeline = [
     future: false,
   },
   {
-    period: "Jul 2023 — Sep 2025",
+    period: "Jul 2023 to Sep 2025",
     role: "Software Engineer",
     org: "NatWest Group (formerly RBS)",
-    detail: "C&I Data Engineering & AI Solutions — PySpark pipelines, Airflow orchestration across 200+ teams, GPT-4-based PDF extraction tool, and monitoring for 3,000+ batch workflows.",
+    detail: "C&I Data Engineering & AI Solutions. PySpark pipelines, Airflow orchestration across 200+ teams, GPT-4-based PDF extraction tool, and monitoring for 3,000+ batch workflows.",
     current: false,
     future: false,
   },
   {
-    period: "Mar 2022 — Sep 2022",
+    period: "Mar 2022 to Sep 2022",
     role: "Research Intern",
     org: "ISB Centre for Analytical Finance",
     detail: "Under Prof. Prasanna Tantri. Built NLP-based scoring model for CRIF, and a case study on Bank of Maharashtra covering key banking ratios and macroeconomic co-movements.",
@@ -27,20 +27,12 @@ const timeline = [
     future: false,
   },
   {
-    period: "2019 — 2023",
-    role: "B.Tech — CS & Applied Mathematics",
+    period: "2019 to 2023",
+    role: "B.Tech, CS & Applied Mathematics",
     org: "IIIT Delhi",
     detail: "Dual major in Computer Science and Applied Mathematics.",
     current: false,
     future: false,
-  },
-  {
-    period: "Next",
-    role: "PhD in Financial Economics",
-    org: "",
-    detail: "The goal. Pursuing research that bridges empirical analysis and real-world decision-making in capital markets.",
-    current: false,
-    future: true,
   },
 ];
 
@@ -52,13 +44,12 @@ export default function Home() {
 
       {/* Hero */}
       <section className="mb-16">
-        <p className="text-xs text-gray-400 uppercase tracking-widest mb-3">Pre-Doctoral Research Associate · ISB</p>
+        <p className="text-xs text-gray-400 uppercase tracking-widest mb-3">ISB · NatWest · IIIT Delhi</p>
         <h1 className="text-3xl font-medium text-gray-900 leading-snug mb-5">
-          Quantitative finance researcher.<br />
-          Former engineer. Future PhD.
+          Abhinav Gudipati
         </h1>
         <p className="text-base text-gray-500 leading-relaxed max-w-xl mb-8">
-          I work at the intersection of market microstructure, high-frequency data, and machine learning at ISB under Prof. Ramabhadran Thirumalai. Before that, I built large-scale data systems at NatWest Group. I also founded <a href="https://concalls.in" target="_blank" rel="noopener noreferrer" className="text-[#5338f5] hover:underline">concalls.in</a> — an AI-driven earnings call intelligence platform for Indian equity investors.
+          I research market microstructure at ISB and previously built data systems at NatWest. The work has always been somewhere between finance and engineering, figuring out what large, messy datasets actually say. I also built <a href="https://concalls.in" target="_blank" rel="noopener noreferrer" className="text-[#5338f5] hover:underline">concalls.in</a>, an earnings call tool for Indian investors.
         </p>
         <div className="flex gap-3 flex-wrap">
           <Link href="/blog" className="text-sm px-5 py-2 bg-[#5338f5] text-white rounded-full hover:bg-indigo-600 transition-colors">
@@ -124,9 +115,18 @@ export default function Home() {
             </Link>
           ))}
           {posts.length === 0 && (
-            <p className="text-sm text-gray-400">No posts yet — coming soon.</p>
+            <p className="text-sm text-gray-400">No posts yet. Coming soon.</p>
           )}
         </div>
+      </section>
+
+      {/* Currently looking */}
+      <section className="mt-16 border-t border-gray-100 pt-10">
+        <p className="text-xs text-gray-400 uppercase tracking-widest mb-3">Currently</p>
+        <p className="text-sm text-gray-900 leading-relaxed max-w-lg">
+          Wrapping up at ISB and looking for what's next. Quant research, trading, or anywhere the work is rigorous and the data is hard. If that sounds like your team,{" "}
+          <a href="mailto:gabhinavsiddharth@gmail.com" className="text-[#5338f5] hover:underline">I'd like to hear from you</a>.
+        </p>
       </section>
     </div>
   );
