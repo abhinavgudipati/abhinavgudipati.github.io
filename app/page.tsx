@@ -49,7 +49,7 @@ export default function Home() {
             <img
               src="/photo2.jpg.jpg"
               alt="Abhinav Gudipati"
-              style={{ width: "100%", height: "100%", objectFit: "cover", objectPosition: "55% 5%", transform: "scale(1.6)", transformOrigin: "55% 5%" }}
+              style={{ width: "100%", height: "100%", objectFit: "cover", objectPosition: "55% 0%", transform: "scale(1.6)", transformOrigin: "55% 0%" }}
             />
           </div>
         </div>
